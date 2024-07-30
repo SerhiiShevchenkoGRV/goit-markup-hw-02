@@ -1,7 +1,8 @@
 /* #region Global */
 body {
     font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", "Open Sans", "Lato", "Monsterrat", "Noto Sans", "Source Sans Pro", sans-serif;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 ul, ol {
@@ -29,11 +30,11 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logo-span {
-color: #4d5ae5;
+color: #2e2f42;
 }
 
 .menu {}
@@ -45,31 +46,29 @@ color: #4d5ae5;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: inherit
+    color: #2e2f42;
 }
 
 .menu-link:hover, .menu-link:focus {
     color: #404bbf;
 }
 
-.contacts {}
+.contacts {
+    font-style: normal;
+}
 
-.contacts-list {}
+.contacts-item {}
 
-.contacts-link {}
-
-.mail-link, 
-.tel-link {
+.contacts-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: inherit;
 }
 
-.mail-link:hover, 
-.tel-link:hover {
-color: #404bbf;
+.contacts-link:hover,.contacts-link:focus {
+    color: #404bbf;
 }
 /* #endregion Header */
 
@@ -81,7 +80,7 @@ color: #404bbf;
 .hero-title {
     font-weight: 700;
     font-size: 56px; 
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -116,7 +115,7 @@ color: #404bbf;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: inherit;
+    color: #2e2f42;
 }
 
 .advantages-item-text {
@@ -124,7 +123,7 @@ color: #404bbf;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: inherit;
 }
 
 /* #endregion Section 1 */
@@ -140,12 +139,15 @@ color: #404bbf;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: inherit;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #fff;
+}
 
 .team-item-title {
     font-weight: 500;
@@ -153,7 +155,7 @@ color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: inherit
+    color: #2e2f42;
 }
 
 .team-item-text {
@@ -162,7 +164,7 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
+    color: inherit;
 }
 /* #endregion Section 2 */
 
@@ -172,22 +174,25 @@ color: #404bbf;
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: inherit;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
 
-.portfolio-item {}
+.portfolio-item {
+    background-color: #fff;
+}
 
 .portfolio-item-title {
     font-weight: 500;
     font-size: 20px; 
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: inherit;
+    color: #2e2f42;
 }
 
 .portfolio-item-text {
@@ -195,7 +200,7 @@ color: #404bbf;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: inherit;
 }
 /* #endregion Section 3 */
 
