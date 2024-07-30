@@ -1,6 +1,6 @@
 /* #region Global */
 body {
-    font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", "Open Sans", "Lato", "Monsterrat", "Noto Sans", "Source Sans Pro", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
@@ -216,6 +216,10 @@ color: #2e2f42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.bottom-line-logo-span {
     color: #f4f4fd;
 }
 
